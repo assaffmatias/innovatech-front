@@ -16,9 +16,9 @@ const LoginView = () => {
 
   return (
     <div className={style.containerView}>
-      <Link className={style.link} to={'/'} onClick={back}>
-        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="m313-440 224 224-57 56-320-320 320-320 57 56-224 224h487v80H313Z" /></svg>
-        Back
+      <Link className={style.link} to={'/'}>
+        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="currentColor"><path d="m313-440 224 224-57 56-320-320 320-320 57 56-224 224h487v80H313Z" /></svg>
+        Home
       </Link>
       <LoginForm />
     </div>

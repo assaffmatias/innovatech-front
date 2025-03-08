@@ -2,20 +2,21 @@
     position: relative;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    /* align-items: center; */
     /* height: 100vh; */
-    min-height: 100vh;
+    /* min-height: 100vh; */
     gap: 32px;
     padding: 32px 0;
-    background: linear-gradient(to left, #161616 30%, #161616 100%);
+    /* background: linear-gradient(to left, #161616 30%, #161616 100%); */
 }
 
 .link{
     display: flex;
     align-items: center;
     text-decoration: none;
-    color: #fff;
-    font-size: 24px;
+    color: #1f1f1f;
+    font-size: 20px;
     gap: 5px;
-    /* background-color: blueviolet; */
+    margin: 0;
+    margin-left: 20px;
 }
